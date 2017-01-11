@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+npm-debug.log
+
+.DS_Store
+
+node_modules/
+
+
+# Optiional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
