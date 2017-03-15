@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by anonymous (http://jsbin.com/fuyawazozi/5/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<style id="jsbin-css">
+body::after {
+  content: "";
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.9) 89%, rgba(255,255,255, 0.9) 100%), url("http://i452.photobucket.com/albums/qq248/le_thieu/2579810410_3745d9b802_o.jpg");
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background-size: 100% 100%;
+  
+}
+
+.container {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+
+}
+
+h1 {
+  text-align: center;
+  color: azure;
+  opacity: 0.7;
+  transition: 0.2s ease-in-out;
+}
+
+h1:hover{
+  transition: 0.3s ease;
+  color: navy;
+  background-color: cyan;
+  box-shadow: 0 0 100px 60px cyan;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+li {
+  display: flex;
+}
+.info {
+  color: MidnightBlue;
+  flex-direction: row;
+  flex-grow: 1;
+  text-align: center;
+  padding: 8px;
+  margin: 5px;
+  
+}
+
+
+.topic{
+  border-radius: 17px;
+  padding: 10px  20px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 0 100px 10px black;
+  transition: 0.3s  ease-in-out;
+}
+
+.topic:hover {
+  transition:  0.3s ease-in-out;
+  background-color: cyan;
+  box-shadow: 0 0 100px 60px cyan;
+}
+
+
+
+
+</style>
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Eddie's timeline</h1>
+    <ul class="list">
+      <li class="topic">
+        <div class="info">Quebec</div>
+        <div class="info">Montreal</div>
+        <div class="info">9 Months</div>
+      </li>
+      <li class="topic">
+        <div class="info">Ontario</div>
+        <div class="info">Toronto</div>
+        <div class="info">1.5 Years</div>
+      </li>
+      <li class="topic">
+        <div class="info">Manitoba</div>
+        <div class="info">Winnipeg</div>
+        <div class="info">4 Months</div>
+      </li>
+      <li class="topic">
+        <div class="info">B.C</div>
+        <div class="info">Vancouver</div>
+        <div class="info">2 Years</div>
+      </li>
+    </ul>
+  </div>
+  
+</body>
+</html>
